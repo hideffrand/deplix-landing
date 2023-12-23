@@ -114,22 +114,8 @@ function App() {
         <img src={pc} alt="Deplix Mock PC" className="mobile-pc w-1/2 md:w-1/4" />
       </section>
       <section className="w-full h-screen bg-black justify-center items-center flex flex-col relative">
-        <div className="text-white text-center justify-center items-center flex flex-col translate-y-40">
-          <h1 className="text-2xl md:text-4xl font-bold">Ready to watch?</h1>
-          {/* <p className="text-xl md:text-2xl">
-            Sign up now for free and enjoy our features to add your whatchlist,
-            bookmarks, and favorite movies!
-          </p> */}
-        </div>
-        <div className="absolute flex gap-4">
-        <button className="bg-deplix-black md:px-10 px-4 py-2 text-sm rounded-md font-semibold text-white hover:bg-deplix-black hover:text-white hover:border hover:border-deplix-red">
-          LOGIN
-        </button>
-        <button className="bg-deplix-red md:px-10 px-4 py-2 text-sm rounded-md font-semibold text-white hover:bg-deplix-black hover:text-white hover:border hover:border-deplix-red">
-          SiGN UP
-        </button>
-        </div>
-        <img src={bottom} alt="Deplix - Watch Movies Online" className="w-4/6"/>
+        <img src={bottom} alt="Deplix - Watch Movies Online" className="w-full md:w-5/6"/>
+        <h1 className="absolute top-0 mt-52 z-10 text-white text-2xl md:text-4xl font-bold">Ready to watch?</h1>
       </section>
       <footer className="text-gray-400 w-full h-auto bg-black flex justify-between px-4 md:px-20 py-4 text-xs md:text-md">
         <p className="">Deplix | Inspired by <a className="underline" href="https://netflix.com">Netflix</a></p>
