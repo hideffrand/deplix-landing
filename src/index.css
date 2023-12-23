@@ -6,5 +6,20 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
+
+.marquee {
+  display: flex;
+  animation: marquee 50s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
