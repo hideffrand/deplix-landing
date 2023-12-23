@@ -73,7 +73,7 @@ function App() {
         </div>
         <div className="absolute text-white animate-bounce bottom-0 flex flex-col justify-center items-center">
           Scroll Down
-          <ion-icon name="chevron-down-outline"></ion-icon>
+          <p>V</p>
         </div>
       </div>
       <main className="w-full md:h-screen bg-black flex items-center justify-around relative py-40">
